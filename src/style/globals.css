@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+p {
+  margin: 0px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+.w-fit {
+  width: fit-content !important;
+}
+.mb-6 {
+  margin-bottom: 250px;
+}
+.mb-7 {
+  margin-bottom: 150px;
+}
+.mt-6 {
+  margin-top: 150px;
+}
+.pb-6 {
+  padding-bottom: 450px;
+}
+

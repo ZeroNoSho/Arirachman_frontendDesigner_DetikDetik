@@ -1,0 +1,7 @@
+.bordernone {
+  border-radius: 0px !important;
+}
+
+.gradien {
+  background-image: linear-gradient(to bottom left, #59ffb9 -30%, #326cff);
+}

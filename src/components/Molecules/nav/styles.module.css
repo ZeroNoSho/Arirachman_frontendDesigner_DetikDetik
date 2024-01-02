@@ -1,0 +1,40 @@
+.navbars {
+  max-width: 70%;
+  background-color: rgba(255, 255, 255, 0.541);
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+  border-top: 1px solid rgba(255, 255, 255, 0.684);
+  border-left: 1px solid rgba(255, 255, 255, 0.688);
+  z-index: 2;
+}
+
+.gradien {
+  background-image: linear-gradient(to bottom right, #59ffb9, #326cff);
+}
+.gradien:hover {
+  background-image: linear-gradient(to bottom left, #59ffb9, #326cff);
+}
+
+@media (min-width: 320px) and (max-width: 763px) {
+  .logonav {
+    width: 100px !important;
+  }
+  .navbars {
+    max-width: 90%;
+    border-radius: 30px !important;
+  }
+  .gradien {
+    width: 90%;
+    margin: auto;
+  }
+}
+@media (min-width: 763px) {
+  .logonav {
+    width: 150px !important;
+  }
+  .navbars {
+    max-width: 90%;
+    border-radius: 30px !important;
+  }
+}

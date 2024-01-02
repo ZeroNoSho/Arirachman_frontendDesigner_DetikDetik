@@ -1,0 +1,27 @@
+.footer {
+  background-color: #28a997;
+  padding: 163px 121px 70px 121px;
+  height: fit-content;
+  gap: 30px;
+}
+.containercentered {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (min-width: 320px) and (max-width: 763px) {
+  .footer {
+    background-color: #28a997;
+    height: auto;
+    padding: 36px;
+  }
+  .row .center {
+    text-align: center !important;
+  }
+  .center {
+    padding: 0px !important;
+    text-align: center !important;
+    margin-bottom: 50px;
+  }
+}

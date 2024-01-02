@@ -1,0 +1,33 @@
+.squareimage {
+  width: 100px !important;
+  height: 100px !important;
+}
+.hiddens {
+  display: none;
+}
+.hiddens2 {
+  display: flex;
+}
+.gradien {
+  background-image: linear-gradient(to bottom left, #59ffb9 -30%, #326cff);
+}
+.gradien:hover {
+  background-image: linear-gradient(to bottom right, #59ffb9 -30%, #326cff);
+}
+@media (min-width: 320px) and (max-width: 763px) {
+  .flexdirection {
+    flex-direction: column !important;
+  }
+  .squareimage {
+    width: auto !important;
+    height: auto !important;
+  }
+}
+@media (min-width: 763px) and (max-width: 900px) {
+  .hiddens {
+    display: flex;
+  }
+  .hiddens2 {
+    display: none;
+  }
+}

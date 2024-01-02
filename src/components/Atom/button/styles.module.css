@@ -1,0 +1,10 @@
+.btnhome {
+  border-radius: 100px;
+  background: #ffc73c !important;
+
+  box-shadow: 0px 18px 40px 12px rgba(255, 211, 103, 0.35);
+}
+.btnhome:hover {
+  border-radius: 100px;
+  background: #ffaa00fd !important;
+}

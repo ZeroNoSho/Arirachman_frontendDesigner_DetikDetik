@@ -1,0 +1,39 @@
+.artikel {
+  height: auto;
+  background: url("/foot/2.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: white;
+  background-size: cover;
+}
+
+.twolines {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.gradien {
+  background-image: linear-gradient(to right top, #326cff -10%, #59ffb9 150%);
+}
+.bgwhite {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+@media (min-width: 320px) and (max-width: 763px) {
+  .artikel {
+    background: url("/foot/1.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: white;
+  }
+  .flexdirection {
+    flex-direction: row !important;
+    margin: 0px 20px 0px 20px;
+  }
+  .size {
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 20px !important;
+  }
+}
